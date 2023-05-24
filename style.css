@@ -47,7 +47,10 @@ body{
     cursor: pointer;
     border: 0;
     outline: 0;
-    border-radius: 70%;
+    /* border-radius: 70%; */
+    font-size: 1.42rem;
+    padding: .5rem;
+    border-radius: 1rem;
 }
 
 .details{
@@ -58,6 +61,7 @@ body{
 }
 
 .weather{
+    display: none;
     color: white;
 }
 
@@ -66,4 +70,12 @@ body{
 }
 .col img{
     width: 40px;
+}
+
+.error {
+    margin: .1rem;
+    text-align: left;
+    padding-left: .6rem;
+    display:none;
+    text-shadow: rgb(174, 255, 0);
 }
